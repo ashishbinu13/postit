@@ -2,7 +2,7 @@ import { FloatingLabel, Form, Button } from "react-bootstrap";
 export function CreatePost() {
   return (
     <>
-      <div className="bg-light bg-opacity-10 bg-gradient p-4 box rounded-3">
+      <div className="bg-light bg-opacity-10 bg-gradient p-4 mt-2 create-post rounded-3">
         <FloatingLabel
           className="mt-2"
           controlId="floatingTextarea2"

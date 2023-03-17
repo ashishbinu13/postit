@@ -1,5 +1,5 @@
-import { FloatingLabel, Form, Button } from "react-bootstrap";
 import { CreatePost } from "../components/CreatePost";
+import { Posts } from "../components/Posts";
 
 export function Home() {
   return (
@@ -7,6 +7,8 @@ export function Home() {
       <h1>Home</h1>
 
       <CreatePost />
+      <hr />
+      <Posts />
     </>
   );
 }
